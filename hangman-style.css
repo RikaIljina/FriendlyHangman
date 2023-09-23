@@ -169,7 +169,7 @@ button:active {
 
 .scoretable {
     height: 300px;
-    width: 600px;
+    width: 300px;
     background-color:#8b6d9c;
     border-style: solid;
     border-width: 2px;
@@ -178,8 +178,8 @@ button:active {
     position: fixed;
     top: -50%;
     left: -50%;
-    margin-top: -150px;
-    margin-left: -330px;
+    margin-top: -50px;
+    margin-left: -230px;
     transition: all 0.9s;
 
 }
@@ -209,5 +209,66 @@ padding: 0 0 200px 0;
 }
 
 @media screen and (max-width: 768px) {
+    body {
+        width: 100%;
+        margin: auto;
+        padding: 0;
+        font-family: 'Mooli', sans-serif;
+        color: #272744;
+        background-color: #fbf5ef;
+    }
+    
+    img {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    
+    .container {
+        margin: 10px;
+        width: 95%;
+        text-align: center;
+    }
+    
+    h1 {
+        font-size: 200%;
+        padding-bottom: 10px;
+    }
+    
+    h1,
+    p {
+        margin: auto;
+        line-height: 15px;
+    }
+    #result {
+        letter-spacing: 10px;
+        font-family: 'Mooli', sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        background-color: #f2d3ab;
+        width: 80%;
+        padding: 20px 0 20px 0;
+    }
+    .scoretable {
+        height: 300px;
+        width: 300px;
+        background-color:#8b6d9c;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #35355e;
+        box-shadow: -5px -5px 4px #272744;
+        position: fixed;
+        top: -50%;
+        left: -50%;
+        margin-top: -150px;
+        margin-left: -150px;
+        transition: all 0.9s;
+    
+    }
+    #check-letter {
+        padding: 15px 20px 15px 20px;
+        margin-left: 80px;
+    }
+    
 
 }
